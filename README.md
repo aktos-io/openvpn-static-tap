@@ -45,11 +45,13 @@ Add to `/etc/resolv.conf` for internal nameserver
 nameserver 192.168.9.105
 ```
 
-RUN: `linux-connect.sh`
-
 # Windows 
 
-*STEP-1*: Rename the TAP adapter as `aea-tap` 
+0. Install [OpenVPN client](https://openvpn.net/index.php/open-source/downloads.html)
+1. Allow openvpn.exe to ["Run as Administrator"](https://community.openvpn.net/openvpn/ticket/68#comment:7)
+    1. Find `C:\Program Files\OpenVPN\bin\openvpn.exe`
+    2. Right click > Properties > Compatibility > Run as Administrator -> do Check
+2. Rename the TAP adapter as `aea-tap` 
 
 Add these to your `.ovpn`: 
 
@@ -59,5 +61,8 @@ script-security 3 system
 up ./up.cmd 
 ```
 
-RUN: `windows-connect.cmd`
 
+# RUN
+
+Linux: `linux-connect.sh`
+Windows: `windows-connect.cmd`
