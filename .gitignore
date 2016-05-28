@@ -2,3 +2,5 @@
 *.p12
 *.key
 *.ovpn
+auth.txt
+ip-settings.txt
