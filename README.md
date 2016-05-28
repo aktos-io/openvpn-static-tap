@@ -1,3 +1,17 @@
+# First step
+
+Download your configuration and key files (*.ovpn, *.key, *.p12) files here, so it looks like this: 
+
+```
+openvpn-static-tap$ ls 
+aktos-udp-1196-ceremcem             ip-settings.txt
+aktos-udp-1196-ceremcem-config.zip  linux-connect.sh
+aktos-udp-1196-ceremcem.ovpn        README.md
+aktos-udp-1196-ceremcem.p12         up.cmd
+aktos-udp-1196-ceremcem-tls.key     up.sh
+auth.txt                            windows-connect.cmd
+```
+
 # Additional Settings
 
 
