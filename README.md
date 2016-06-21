@@ -53,7 +53,7 @@ nameserver 192.168.9.105
     1. Find `C:\Program Files\OpenVPN\bin\openvpn.exe`
     2. Right click > Properties > Compatibility > Run as Administrator -> do Check
 2. [Rename the TAP adapter](https://www.google.com.tr/search?q=how+to+rename+adapter+windows&ie=utf-8&oe=utf-8&gws_rd=cr&ei=E6JJV-e2JIH7UMvjgIAK#q=how+to+rename+a+network+adapter+windows) as `aea-tap` 
-3. Locate this scripts' folder in `C:\`
+3. Locate this folder in `C:\`
 4. 
 Add these to your `.ovpn`: 
 
